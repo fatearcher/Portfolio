@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+  .footer .footer-col {
+    margin-bottom: 50px;
+  }
+
+  .detail-contentbox {
+    background-color: #f2f2f2;
+    padding: 6%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section {
+    padding: 25px 0;
+  }
+
+  .container-fluid {
+    margin-top: 100px;
+  }
+
+  .portfolio-item h3 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .portfolio-item h4 {
+    font-size: 12px;
+  }
+
+  .portfolio-item .portfolio-link .caption {
+    /*スマホで表示*/
+    opacity: 1;
+    background: rgba(58, 54, 54, 0.3);
+  }
+}
